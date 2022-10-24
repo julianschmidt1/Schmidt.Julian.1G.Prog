@@ -75,7 +75,7 @@ float aplicarAumento(float precioProducto) {
 }
 
 int reemplazarCaracteres(char *cadena, char primerChar, char segundoChar) {
-	int contador;
+	int contador = 0;
 
 	if (cadena != NULL && sizeof(cadena) > 0) {
 
